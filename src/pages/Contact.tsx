@@ -115,13 +115,7 @@ const Contact = () => {
                   <MapPin className="h-6 w-6 text-blue-600 mt-1 animate-float" />
                   <div className="ml-4">
                     <h3 className="font-semibold">Address</h3>
-                    <p className="text-gray-600">
-                      123 Tech Street
-                      <br />
-                      Silicon Valley, CA 94025
-                      <br />
-                      United States
-                    </p>
+                    <p className="text-gray-600">Gongabu, Kathmandu, Nepal</p>
                   </div>
                 </div>
               </div>
@@ -150,9 +144,8 @@ const Contact = () => {
               <div className="card-3d bg-white p-6 rounded-xl shadow-lg slide-in stagger-4">
                 <h3 className="text-xl font-semibold mb-4">Business Hours</h3>
                 <div className="space-y-2 text-gray-600">
-                  <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                  <p>Saturday: 10:00 AM - 4:00 PM</p>
-                  <p>Sunday: Closed</p>
+                  <p>Sunday - Friday: 9:00 AM - 6:00 PM</p>
+                  <p>Saturday: Closed</p>
                 </div>
               </div>
             </div>

@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center">
               <Code2 className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold">TechSolutions</span>
+              <span className="ml-2 text-xl font-bold">Karuna Info Tech</span>
             </div>
             <p className="mt-4 text-gray-400">
               Transforming ideas into powerful software solutions.
@@ -57,16 +57,32 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a
+                href="https://www.facebook.com/profile.php?id=61570450655481"
+                className="text-gray-400 hover:text-white"
+                target="_blank"
+              >
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a
+                href="https://www.facebook.com/profile.php?id=61570450655481"
+                className="text-gray-400 hover:text-white"
+                target="_blank"
+              >
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a
+                href="https://www.facebook.com/profile.php?id=61570450655481"
+                className="text-gray-400 hover:text-white"
+                target="_blank"
+              >
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white">
+              <a
+                href="https://www.facebook.com/profile.php?id=61570450655481"
+                className="text-gray-400 hover:text-white"
+                target="_blank"
+              >
                 <Instagram className="h-6 w-6" />
               </a>
             </div>

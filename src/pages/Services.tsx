@@ -3,6 +3,7 @@ import {
   Smartphone,
   Cloud,
   Database,
+  Image,
   Lock,
   BarChart,
 } from "lucide-react";
@@ -101,6 +102,12 @@ const services = [
     description:
       "Native and cross-platform mobile applications for iOS and Android.",
     features: ["iOS Development", "Android Development", "React Native Apps"],
+  },
+  {
+    icon: Image,
+    title: "Graphic Designing",
+    description: "Graphic Designing for your business needs.",
+    features: ["Logo Design", "UI/UX Design", "Brand Identity"],
   },
   {
     icon: Cloud,

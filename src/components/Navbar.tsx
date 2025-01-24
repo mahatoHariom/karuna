@@ -18,7 +18,7 @@ const Navbar = () => {
             <Link to="/" className="flex items-center">
               <Code2 className="h-8 w-8 text-blue-600" />
               <span className="ml-2 text-xl font-bold text-gray-900">
-                Karuna IT
+                Karuna Info Tech
               </span>
             </Link>
           </div>
