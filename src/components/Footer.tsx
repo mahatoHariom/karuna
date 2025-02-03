@@ -1,6 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { Code2, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,8 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center">
-              <Code2 className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold">Karuna Info Tech</span>
+              <img src="/karuna2.png" alt="Logo" className="h-8 w-auto" />
             </div>
             <p className="mt-4 text-gray-400">
               Transforming ideas into powerful software solutions.

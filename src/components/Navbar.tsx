@@ -1,5 +1,4 @@
 import { Link, useLocation } from "react-router-dom";
-import { Code2 } from "lucide-react";
 
 const Navbar = () => {
   const location = useLocation();
@@ -16,10 +15,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <Code2 className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-xl font-bold text-gray-900">
-                Karuna Info Tech
-              </span>
+              <img src="/karuna.png" alt="Logo" className="h-8 w-auto" />
             </Link>
           </div>
           <div className="flex items-center space-x-8">

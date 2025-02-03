@@ -15,11 +15,12 @@ const Contact = () => {
     setIsSubmitting(true);
     try {
       await emailjs.sendForm(
-        "service_ckxvf7o",
-        "template_igiei0d",
+        "service_fsdk8pr",
+        "template_v7elllt",
         formRef.current,
-        "YxpM_kjQIMH_Vtw-7"
+        "Wf0vmRAxWWI7KvO-C"
       );
+
       toast.success("Message sent successfully!");
       formRef.current.reset();
     } catch (error) {
@@ -125,7 +126,8 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-blue-600 mt-1 animate-float" />
                   <div className="ml-4">
                     <h3 className="font-semibold">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">9803882724</p>
+                    <p className="text-gray-600">9761625523</p>
                   </div>
                 </div>
               </div>
@@ -135,7 +137,8 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-blue-600 mt-1 animate-float" />
                   <div className="ml-4">
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-600">contact@techsolutions.com</p>
+                    <p className="text-gray-600">info@karunait.com</p>
+                    <p className="text-gray-600">karunait.web@gmail.com</p>
                   </div>
                 </div>
               </div>
